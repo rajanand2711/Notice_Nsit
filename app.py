@@ -29,7 +29,7 @@ os.makedirs(NOTICES_DIR, exist_ok=True)
 os.makedirs(CACHE_DIR, exist_ok=True)
 
 # Configure Gemini
-API_KEY = "AIzaSyBgQNzh5JanRXNrtSNgxQDNYh8bjyJr1sI"  # must be set before running
+API_KEY = "AIzaSyDBsy4TRzdM4vSqzUR2I341IfsXjM0s5tc"  # must be set before running
 if not API_KEY:
     st.error("⚠️ Please set GOOGLE_API_KEY environment variable")
     st.stop()
@@ -497,4 +497,5 @@ else:
 
 # Footer
 st.divider()
+
 st.caption("Built with Streamlit, Google Gemini AI, and ❤️ for NSIT")
