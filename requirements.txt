@@ -1,0 +1,9 @@
+streamlit
+beautifulsoup4
+requests
+pandas
+pdfplumber
+camelot-py[cv]
+PyPDF2
+opencv-python-headless
+google-generativeai
